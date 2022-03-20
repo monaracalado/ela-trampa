@@ -1,0 +1,28 @@
+import { Link } from 'react-router-dom';
+import logo from '../../assets/logo.png';
+import './header.css';
+
+export default function Header() {
+return (
+    <header>
+        <div className="logo">
+            <Link to="/"><img src={logo} alt="Ela trampa logo" /></Link>
+        </div>
+
+        <nav className='nav-container'>
+            <ul className='list-container'>
+                <li className='list-link'><Link to="/">Início</Link></li>
+                <li className='list-link'><Link to="/">Quem somos</Link></li>
+                <li className='list-link'><Link to="/">Vagas</Link></li>
+                <li className='list-link'><Link to="/">Cadastro</Link></li>
+                <li className='list-link'><Link to="/">Contato</Link></li>
+                <li className='list-link'><Link to="/">Administração</Link></li>
+            </ul>
+        </nav>
+
+        <div className='user-container'>
+            <p>Squad53</p>
+        </div>
+    </header>
+);
+};
