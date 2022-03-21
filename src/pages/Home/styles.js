@@ -66,7 +66,7 @@ export const JobsContainer = styled.div `
 
 export const Jobs = styled.div `
     border: 2px solid #5BCEFA;
-    width: 265px;
+    width: 300px;
     text-align: center;
     padding: 15px;
     margin: 20px;
