@@ -14,8 +14,8 @@ return (
                 <li className='list-link'><Link to="/">Início</Link></li>
                 <li className='list-link'><Link to="/aboutus">Quem somos</Link></li>
                 <li className='list-link'><Link to="/jobs">Vagas</Link></li>
-                <li className='list-link'><Link to="/">Cadastro</Link></li>
-                <li className='list-link'><Link to="/">Contato</Link></li>
+                <li className='list-link'><Link to="/signup">Cadastro</Link></li>
+                <li className='list-link'><Link to="/contact">Contato</Link></li>
                 <li className='list-link'><Link to="/">Administração</Link></li>
             </ul>
         </nav>
