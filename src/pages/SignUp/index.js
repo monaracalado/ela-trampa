@@ -1,11 +1,13 @@
-
+import { SignUpContainer,
+        Form,
+} from "./signup";
 
 export default function SignUp() {
     return (
-        <div>
+        <SignUpContainer>
             <h1>Cadastre-se e veja as vagas que estão esperando por você!</h1>
 
-            <form>
+            <Form>
                 <label>Nome</label>
                 <input type="text"/>
                 <label>CPF</label>
@@ -27,7 +29,7 @@ export default function SignUp() {
                 </select>
 
                 <button type="submit">Cadastre-se</button>
-            </form>
-        </div>
+            </Form>
+        </SignUpContainer>
     );
 }
