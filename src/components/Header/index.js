@@ -12,8 +12,8 @@ return (
         <nav className='nav-container'>
             <ul className='list-container'>
                 <li className='list-link'><Link to="/">Início</Link></li>
-                <li className='list-link'><Link to="/">Quem somos</Link></li>
-                <li className='list-link'><Link to="/">Vagas</Link></li>
+                <li className='list-link'><Link to="/aboutus">Quem somos</Link></li>
+                <li className='list-link'><Link to="/jobs">Vagas</Link></li>
                 <li className='list-link'><Link to="/">Cadastro</Link></li>
                 <li className='list-link'><Link to="/">Contato</Link></li>
                 <li className='list-link'><Link to="/">Administração</Link></li>

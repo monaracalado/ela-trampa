@@ -33,27 +33,27 @@ export default function Home() {
                         <button> <Link to="/">Saiba mais</Link></button>
                     </Jobs>
                     <Jobs>
-                        <h2>Jovem Aprendiz</h2>
+                        <h2>Maquiadora</h2>
                         <p>Nome da empresa</p>
                         <button><Link to="/">Saiba mais</Link></button>
                     </Jobs>
                     <Jobs>
-                        <h2>Jovem Aprendiz</h2>
+                        <h2>Promotora de Tecnologia</h2>
                         <p>Nome da empresa</p>
                         <button><Link to="/">Saiba mais</Link></button>
                     </Jobs>
                     <Jobs>
-                        <h2>Jovem Aprendiz</h2>
+                        <h2>Estágiario</h2>
                         <p>Nome da empresa</p>
                         <button><Link to="/">Saiba mais</Link></button>
                     </Jobs>
                     <Jobs>
-                        <h2>Jovem Aprendiz</h2>
+                        <h2>Recepcionista</h2>
                         <p>Nome da empresa</p>
                         <button><Link to="/">Saiba mais</Link></button>
                     </Jobs>
                     <Jobs>
-                        <h2>Jovem Aprendiz</h2>
+                        <h2>Cabeleireiro</h2>
                         <p>Nome da empresa</p>
                         <button><Link to="/">Saiba mais</Link></button>
                     </Jobs>

@@ -89,6 +89,10 @@ export const Jobs = styled.div `
         border-radius: 3px;
         font-weight: bold;
         font-size: 1rem;
+
+        &:hover {
+            background-color: #D95273;
+        }
     }
 `
 
